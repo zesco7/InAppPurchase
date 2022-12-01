@@ -20,6 +20,8 @@
 		98B684BB29359F4F001383C2 /* InAppPurchaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B684BA29359F4F001383C2 /* InAppPurchaseTests.swift */; };
 		98B684C22935ABC9001383C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B684C12935ABC9001383C2 /* LoginViewController.swift */; };
 		98BCDB282936FB19008FD376 /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BCDB272936FB19008FD376 /* ValidatorTests.swift */; };
+		98BCEBA729383965000D77FA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BCEBA629383965000D77FA /* APIService.swift */; };
+		98BCEBA929383BD7000D77FA /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BCEBA829383BD7000D77FA /* APIServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		98B684BA29359F4F001383C2 /* InAppPurchaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchaseTests.swift; sourceTree = "<group>"; };
 		98B684C12935ABC9001383C2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		98BCDB272936FB19008FD376 /* ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
+		98BCEBA629383965000D77FA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		98BCEBA829383BD7000D77FA /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				989D9820293454FA00FF5E9F /* LaunchScreen.storyboard */,
 				989D9823293454FA00FF5E9F /* Info.plist */,
 				98B684C12935ABC9001383C2 /* LoginViewController.swift */,
+				98BCEBA629383965000D77FA /* APIService.swift */,
 			);
 			path = InAppPurchase;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			children = (
 				98B684BA29359F4F001383C2 /* InAppPurchaseTests.swift */,
 				98BCDB272936FB19008FD376 /* ValidatorTests.swift */,
+				98BCEBA829383BD7000D77FA /* APIServiceTests.swift */,
 			);
 			path = InAppPurchaseTests;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B684C22935ABC9001383C2 /* LoginViewController.swift in Sources */,
+				98BCEBA729383965000D77FA /* APIService.swift in Sources */,
 				989D981A293454F400FF5E9F /* ViewController.swift in Sources */,
 				989D9816293454F400FF5E9F /* AppDelegate.swift in Sources */,
 				989D9818293454F400FF5E9F /* SceneDelegate.swift in Sources */,
@@ -300,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BCEBA929383BD7000D77FA /* APIServiceTests.swift in Sources */,
 				98BCDB282936FB19008FD376 /* ValidatorTests.swift in Sources */,
 				98B684BB29359F4F001383C2 /* InAppPurchaseTests.swift in Sources */,
 			);
